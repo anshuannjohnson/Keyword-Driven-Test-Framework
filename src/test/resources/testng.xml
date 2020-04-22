@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SE Project test suite"  thread-count="5">
+<!--parallel="tests"-->
+	
+	<test name="Test Case 1" >
+		<parameter name="sheetName" value="loginForm" />
+		<classes>
+			<class name="tests.LoginTest"></class>
+		</classes>
+	</test>
+	
+	
+	<!--
+	<test name="Test Case 2" >
+		<parameter name="sheetName" value="login" />
+		<classes>
+			<class name="tests.LoginTest"></class>
+		</classes>
+	</test> -->
+	
+</suite> 
